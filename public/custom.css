@@ -1,0 +1,21 @@
+/* custom.css */
+.gradient-text {
+  background: linear-gradient(89deg, #9845E8 3.33%, #33D2FF 43.52%, #DD5789 76.47%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback for non-webkit browsers */
+}
+
+.gradient-bg {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(78, 138, 255, 0.20) 0%, rgba(78, 138, 255, 0.00) 100%), var(--Gray-Dark-Default, #030712);
+}
+
+.pics-border {
+  width: 425px;
+  border-radius: 300px;
+  border-width: 1rem;
+  border-color: var(--Gray-2, #4f4f4f50);
+}
+
+

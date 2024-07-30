@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body class="bg-frame-bg font-poppins">
+    <header class="gradient-bg h-[90vh] px-10">
+      <!-- Nav Section -->
+      <nav class="h-[15vh] flex justify-between items-center flex-1">
+        <div
+          class="text-center text-2xl font-bold leading-9 tracking-tight gradient-text"
+        >
+          Mike.Lake
+        </div>
+        <div class="flex justify-center items-center gap-14">
+          <div class="text-tx-c1">
+            <ul class="grid grid-cols-3">
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="flex justify-evenly items-center gap-4">
+            <span class="material-symbols-outlined text-tx-c1">
+              dark_mode
+            </span>
+            <button class="btn text-tx">Download CV</button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="h-[75vh] text-tx-c1 flex justify-between py-6">
+        <div class="flex flex-col items-start w-[50vw] flex-shrink-0 gap-4">
+          <h1 class="text-[4rem] leading-[4.5rem]">
+            Hi, I am <br /><span class="font-bold gradient-text"
+              >Michael Adeleke</span
+            >
+            <br />A Product Designer
+          </h1>
+          <p class="text-[1.4rem]">
+            I help businesses and companies reach <br />
+            their goals and designing user-centric digital <br />
+            product & interactive experience
+          </p>
+          <button class="flex justify-center gap-5 btn text-black w-[18rem]">
+            <span class="material-symbols-outlined"> mail </span>
+            Contact Me
+          </button>
+        </div>
+
+        <div>
+          <img
+            src="./assets/image 2.png"
+            alt="profile image"
+            class="pics-border"
+          />
+        </div>
+      </div>
+
+    </header>
+
+    
+      <!-- Hamburger Nav Section -->
+    <nav class="text-tx-c1 flex h-[60vh]">
+      <div
+        class="text-2xl font-bold leading-9 tracking-tight gradient-text"
+      >
+        Mike.Lake
+      </div>
+      
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#goals" onclick="toggleMenu()">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-tx-c1">book</h1>
+  </body>
+</html>
+</div>
