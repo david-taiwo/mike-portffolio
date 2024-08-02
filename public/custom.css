@@ -26,6 +26,7 @@
   border-radius: 300px;
   border-width: 12px;
   border-color: var(--Gray-2, #4f4f4f50);
+  width: 25rem;
 }
 
 .hamburger-icon span {
@@ -45,3 +46,12 @@
 .hamburger-icon.open span:nth-child(3) {
   transform: rotate(-45deg) translate(10px, -5px);
 }
+
+.custom-gradient-bg {
+  background: linear-gradient(225.4deg, #2D65E9 0%, #616DDA 48.12%, #2C979E 93.59%);
+  font-weight: 300;
+}
+
+.font-extra-light {
+}
+

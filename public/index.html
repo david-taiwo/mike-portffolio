@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -18,9 +18,9 @@
   </head>
 
   <body class="bg-frame-bg font-poppins w-[100vw]">
-    <header class="gradient-bg h-[90vh] px-10">
+    <section class="gradient-bg w-[100vw]">
       <!-- Nav Section -->
-      <nav class="h-[15vh] flex justify-between items-center flex-1">
+      <nav class="h-[15vh] flex justify-between items-center flex-1 px-10">
         <div
           class="text-center text-2xl font-bold leading-9 tracking-tight gradient-text"
         >
@@ -55,21 +55,22 @@
       </nav>
 
       <div
-        class="lg:h-[85vh] text-tx-c1 flex px-10 mt-10 gap-7 justify-between overflow-visible phone:flex-col-reverse"
+        class="lg:h-[75vh] text-tx-c1 flex px-10 mt-10 gap-7 justify-between overflow-visible phone:flex-col-reverse phone:px-3"
       >
         <div
-          class="flex flex-col justify-ev items-start w-[50vw] flex-shrink-0 gap-4"
+          class="flex flex-col justify-ev items-start w-[50vw] phone:w-[80vw] flex-shrink-0 gap-4"
         >
-          <h1 class="text-[4rem] leading-[4.5rem] phone:text-[2rem]">
+          <h1
+            class="text-[4rem] leading-[4.5rem] phone:text-[1.8rem] phone:leading-[2.5rem]"
+          >
             Hi, I am <br /><span class="font-bold gradient-text"
               >Michael Adeleke</span
             >
             <br />A Product Designer
           </h1>
-          <p class="text-[1.4rem]">
-            I help businesses and companies reach <br />
-            their goals and designing user-centric digital <br />
-            product & interactive experience
+          <p class="text-[1.4rem] phone:text-[1rem] text-wrap">
+            I help businesses and companies reach their goals and designing
+            user-centric digital product & interactive experience
           </p>
           <button
             class="flex justify-center gap-5 mt-10 btn text-black w-[15rem]"
@@ -87,7 +88,7 @@
           />
         </div>
       </div>
-    </header>
+    </section>
 
     <!-- Hamburger Nav Section -->
     <!-- <div class="menu-links">
@@ -112,6 +113,60 @@
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </ul>
     </div> -->
+
+    <section class="text-tx-c1 px-10 py-11">
+      <div class="flex flex-col justify-evenly gap-4">
+        <h2 class="text-2xl"><span class="font-lw">Featured</span> Works</h2>
+
+        <div class="flex justify-around gap-10 phone:flex-col">
+          <div>
+            <a href="#" class="flex flex-col gap-6">
+              <div class="custom-gradient-bg w-100% h-[20rem] rounded-md">
+                <div class=""></div>
+              </div>
+              <div class="">
+                <h3 class="text-xl">My Project</h3>
+                <p class="font-lw text-wrap py-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus.
+                </p>
+                <p class="gradient-text">Skech - Figma - Styled Components</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="flex flex-col gap-6">
+              <div class="custom-gradient-bg w-100% h-[20rem] rounded-md">
+                <div class=""></div>
+              </div>
+              <div class="">
+                <h3 class="text-xl">My Project</h3>
+                <p class="font-lw text-wrap py-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus.
+                </p>
+                <p class="gradient-text">Skech - Figma - Styled Components</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="flex flex-col gap-6">
+              <div class="custom-gradient-bg w-100% h-[20rem] rounded-md">
+                <div class=""></div>
+              </div>
+              <div class="">
+                <h3 class="text-xl">My Project</h3>
+                <p class="font-lw text-wrap py-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus.
+                </p>
+                <p class="gradient-text">Skech - Figma - Styled Components</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>

@@ -18,7 +18,10 @@ module.exports = {
         twelve: "12px",
       },
       screens: {
-        phone: { max: "390px" }, // Custom breakpoint
+        phone: { max: "600px" }, // Custom breakpoint
+      },
+      fontWeight: {
+        lw: "2",
       },
     },
   },
