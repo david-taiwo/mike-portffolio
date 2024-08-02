@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="custom.css" />
   </head>
 
-  <body class="bg-frame-bg font-poppins">
+  <body class="bg-frame-bg font-poppins w-[100vw]">
     <header class="gradient-bg h-[90vh] px-10">
       <!-- Nav Section -->
       <nav class="h-[15vh] flex justify-between items-center flex-1">
@@ -26,7 +26,7 @@
         >
           Mike.Lake
         </div>
-        <div class="flex justify-center items-center gap-14">
+        <div class="flex justify-center items-center gap-14 hidden lg:flex">
           <div class="text-tx-c1">
             <ul class="grid grid-cols-3">
               <li><a href="#about">About</a></li>
@@ -41,11 +41,26 @@
             <button class="btn text-tx">Download CV</button>
           </div>
         </div>
+        <!-- Hamburger icon -->
+        <div class="lg:hidden">
+          <div
+            class="hamburger-icon flex flex-col justify-between h-6 w-8 cursor-pointer"
+            onclick="toggleMenu()"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </nav>
 
-      <div class="h-[75vh] text-tx-c1 flex justify-between py-6">
-        <div class="flex flex-col items-start w-[50vw] flex-shrink-0 gap-4">
-          <h1 class="text-[4rem] leading-[4.5rem]">
+      <div
+        class="lg:h-[85vh] text-tx-c1 flex px-10 mt-10 gap-7 justify-between overflow-visible phone:flex-col-reverse"
+      >
+        <div
+          class="flex flex-col justify-ev items-start w-[50vw] flex-shrink-0 gap-4"
+        >
+          <h1 class="text-[4rem] leading-[4.5rem] phone:text-[2rem]">
             Hi, I am <br /><span class="font-bold gradient-text"
               >Michael Adeleke</span
             >
@@ -56,13 +71,15 @@
             their goals and designing user-centric digital <br />
             product & interactive experience
           </p>
-          <button class="flex justify-center gap-5 btn text-black w-[18rem]">
+          <button
+            class="flex justify-center gap-5 mt-10 btn text-black w-[15rem]"
+          >
             <span class="material-symbols-outlined"> mail </span>
             Contact Me
           </button>
         </div>
 
-        <div>
+        <div class="phone:w-[17rem]">
           <img
             src="./assets/image 2.png"
             alt="profile image"
@@ -70,34 +87,31 @@
           />
         </div>
       </div>
-
     </header>
 
-    
-      <!-- Hamburger Nav Section -->
-    <nav class="text-tx-c1 flex h-[60vh]">
-      <div
-        class="text-2xl font-bold leading-9 tracking-tight gradient-text"
-      >
-        Mike.Lake
-      </div>
-      
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+    <!-- Hamburger Nav Section -->
+    <!-- <div class="menu-links">
+      <nav class="flex justify-between items-center w-full p-4">
+        <div
+          class="text-center text-2xl font-bold leading-9 tracking-tight gradient-text"
+        >
+          Mike.Lake
+        </div>
+        <div
+          class="hamburger-icon open flex flex-col justify-between h-6 w-8 cursor-pointer"
+          onclick="toggleMenu()"
+        >
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
-          <ul>
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#goals" onclick="toggleMenu()">Work</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <h1 class="text-tx-c1">book</h1>
+      </nav>
+      <ul class="text-tx-c1 text-center">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div> -->
+    <script src="app.js"></script>
   </body>
 </html>
-</div>

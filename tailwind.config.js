@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/index.html}"],
+  content: ["./public/index.html"],
   theme: {
     extend: {
       colors: {
@@ -16,6 +16,9 @@ module.exports = {
       },
       borderRadius: {
         twelve: "12px",
+      },
+      screens: {
+        phone: { max: "390px" }, // Custom breakpoint
       },
     },
   },

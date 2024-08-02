@@ -1,6 +1,11 @@
 /* custom.css */
 .gradient-text {
-  background: linear-gradient(89deg, #9845E8 3.33%, #33D2FF 43.52%, #DD5789 76.47%);
+  background: linear-gradient(
+    89deg,
+    #9845e8 3.33%,
+    #33d2ff 43.52%,
+    #dd5789 76.47%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8,14 +13,35 @@
 }
 
 .gradient-bg {
-  background: radial-gradient(100% 100% at 50% 0%, rgba(78, 138, 255, 0.20) 0%, rgba(78, 138, 255, 0.00) 100%), var(--Gray-Dark-Default, #030712);
+  background: radial-gradient(
+      100% 100% at 50% 0%,
+      rgba(78, 138, 255, 0.2) 0%,
+      rgba(78, 138, 255, 0) 100%
+    ),
+    var(--Gray-Dark-Default, #030712);
 }
 
 .pics-border {
-  width: 425px;
+  /* width: 425px; */
   border-radius: 300px;
-  border-width: 1rem;
+  border-width: 12px;
   border-color: var(--Gray-2, #4f4f4f50);
 }
 
+.hamburger-icon span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #f9fafb;
+  transition: all 0.3s ease-in-out;
+}
 
+.hamburger-icon.open span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-icon.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
