@@ -48,10 +48,20 @@
 }
 
 .custom-gradient-bg {
-  background: linear-gradient(225.4deg, #2D65E9 0%, #616DDA 48.12%, #2C979E 93.59%);
+  background: linear-gradient(
+    225.4deg,
+    #2d65e9 0%,
+    #616dda 48.12%,
+    #2c979e 93.59%
+  );
   font-weight: 300;
 }
 
-.font-extra-light {
+.selected-gradient-bg {
+  background: radial-gradient(
+    100% 100% at 50.1% 100%,
+    rgba(78, 138, 255, 0.2) 0%,
+    rgba(78, 138, 255, 0) 100%
+  );
 }
 
