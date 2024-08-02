@@ -598,36 +598,12 @@ video {
   width: 50vw;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[3\] {
-  width: 3;
-}
-
-.w-\[3rem\] {
-  width: 3rem;
-}
-
 .w-\[6rem\] {
   width: 6rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -642,20 +618,16 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -664,10 +636,6 @@ video {
 
 .items-start {
   align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .items-center {
@@ -694,16 +662,16 @@ video {
   justify-content: space-evenly;
 }
 
-.justify-items-center {
-  justify-items: center;
-}
-
 .gap-10 {
   gap: 2.5rem;
 }
 
 .gap-14 {
   gap: 3.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-4 {
@@ -722,22 +690,6 @@ video {
   gap: 1.75rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .overflow-visible {
   overflow: visible;
 }
@@ -746,33 +698,16 @@ video {
   text-wrap: wrap;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
-.rounded-\[\] {
-  border-radius: ;
-}
-
-.rounded-\[1\] {
-  border-radius: 1;
-}
-
 .rounded-\[1rem\] {
   border-radius: 1rem;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .border {
   border-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
 .border-tx-c1 {
@@ -780,34 +715,26 @@ video {
   border-color: rgb(249 250 251 / var(--tw-border-opacity));
 }
 
-.bg-frame-bg {
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#080E1F\] {
   --tw-bg-opacity: 1;
   background-color: rgb(8 14 31 / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
+.bg-frame-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-10 {
   padding: 2.5rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .px-10 {
@@ -830,21 +757,8 @@ video {
   padding-bottom: 5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.align-middle {
-  vertical-align: middle;
-}
-
-.align-bottom {
-  vertical-align: bottom;
 }
 
 .font-poppins {
@@ -856,8 +770,20 @@ video {
   line-height: 2rem;
 }
 
+.text-\[\.7rem\] {
+  font-size: .7rem;
+}
+
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
+}
+
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
 }
 
 .text-\[4rem\] {
@@ -867,50 +793,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-\[1rem\] {
-  font-size: 1rem;
-}
-
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
-.text-\[1\.3rem\] {
-  font-size: 1.3rem;
-}
-
-.text-\[\.7rem\] {
-  font-size: .7rem;
-}
-
-.text-\[\.5rem\] {
-  font-size: .5rem;
-}
-
-.text-\[\.6rem\] {
-  font-size: .6rem;
 }
 
 .font-bold {
@@ -943,22 +825,6 @@ video {
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
-.text-\[1\] {
-  color: 1;
-}
-
-.text-\[xs\] {
-  color: xs;
-}
-
-.text-\[rem\] {
-  color: rem;
-}
-
-.text-\[\.rem\] {
-  color: .rem;
-}
-
 .btn {
   border-radius: 14px;
   padding-top: 0.5rem;
@@ -984,10 +850,6 @@ video {
 }
 
 @media (max-width: 600px) {
-  .phone\:flex {
-    display: flex;
-  }
-
   .phone\:grid {
     display: grid;
   }
@@ -1002,14 +864,6 @@ video {
 
   .phone\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
-  }
-
-  .phone\:grid-rows-3 {
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-  }
-
-  .phone\:flex-row {
-    flex-direction: row;
   }
 
   .phone\:flex-col {
