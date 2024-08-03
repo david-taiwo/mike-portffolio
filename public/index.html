@@ -55,10 +55,10 @@
       </nav>
 
       <div
-        class="lg:h-[75vh] text-tx-c1 flex px-10 mt-10 gap-7 justify-between overflow-visible phone:flex-col-reverse phone:px-3"
+        class="text-tx-c1 flex px-10 mt-10 gap-7 justify-between overflow-visible phone:flex-col-reverse phone:px-3"
       >
         <div
-          class="flex flex-col justify-ev items-start w-[50vw] phone:w-[80vw] flex-shrink-0 gap-4"
+          class="flex flex-col justify-ev items-start w-[50vw] flex-shrink-0 gap-4"
         >
           <h1
             class="text-[4rem] leading-[4.5rem] phone:text-[1.8rem] phone:leading-[2.5rem]"
@@ -171,12 +171,12 @@
     <section class="selected-gradient-bg text-tx-c1 px-10 py-11">
       <div class="flex flex-col justify-evenly gap-20">
         <h2 class="text-2xl"><span class="font-lw">Selected</span> Works</h2>
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-2 phone:grid-rows-2 phone:grid-cols-1">
           <div class="bg-[#080E1F] flex justify-center">
             <img
               src="./assets/work.png"
               alt="selected work image"
-              class="p-10"
+              class="p-10 object-contain phone:p-2"
             />
           </div>
           <div class="gradient-bg flex justify-center">
@@ -199,8 +199,8 @@
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-2">
-          <div class="gradient-bg flex justify-center">
+        <div class="grid grid-cols-2 phone:grid-rows-2 phone:grid-cols-1">
+          <div class="gradient-bg flex justify-center phone:order-2">
             <div
               class="flex flex-col gap-5 justify-end px-10 py-20 text-[1.3rem]"
             >
@@ -223,16 +223,16 @@
             <img
               src="./assets/work.png"
               alt="selected work image"
-              class="p-10"
+              class="p-10 object-contain phone:p-2"
             />
           </div>
         </div>
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-2 phone:grid-rows-2 phone:grid-cols-1">
           <div class="bg-[#080E1F] flex justify-center">
             <img
               src="./assets/work.png"
               alt="selected work image"
-              class="p-10"
+              class="p-10 object-contain phone:p-2"
             />
           </div>
           <div class="gradient-bg flex justify-center">
@@ -254,6 +254,78 @@
               </a>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gradient-bg text-tx-c1 px-10 py-11">
+      <div
+        class="grid grid-cols-3 phone:grid-cols-1 phone:flex-col phone:gap-14"
+      >
+        <div
+          class="col-span-2 flex flex-col gap-5 justify-normal px-30 py-20 phone:py-0 phone:px-0"
+        >
+          <h3>A BIT ABOUT ME</h3>
+          <p>
+            <span class="font-lw"
+              >I am a UI/UX designer who is passionate about
+            </span>
+            creating beautiful and joyful digital experiences. Besides design, I
+            love music, games and travelling.
+          </p>
+        </div>
+        <div class="flex flex-row gap-3 justify-end">
+          <div class="flex flex-col justify-center items-center">
+            <img src="./assets/Change1.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-3 justify-center">
+            <img src="./assets/Change2.png" alt="" />
+            <img src="./assets/Change3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-tx-c1 px-10 py-11">
+      <div class="flex flex-col gap-6 justify-start items-center">
+        <h3 class="bg-[#374151] rounded-[1rem] w-20 text-center">Skills</h3>
+        <p class="font-lw">
+          The skills, tools and technologies I am really good at:
+        </p>
+        <!-- phone:flex-wrap phone:flex-row-4 -->
+        <div class="grid grid-cols-8 phone:grid-cols-4 gap-10 justify-between">
+          <img src="./assets/app-icon1.png" alt="" />
+          <img src="./assets/app-icon2.png" alt="" />
+          <img src="./assets/app-icon3.svg" alt="" />
+          <img src="./assets/app-icon4.png" alt="" />
+          <img src="./assets/app-icon5.svg" alt="" />
+          <img src="./assets/app-icon6.png" alt="" />
+          <img src="./assets/app-icon4.png" alt="" />
+          <img src="./assets/app-icon3.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="text-tx-c1 px-10 py-11">
+      <div class="flex flex-col gap-6 justify-start items-center">
+        <h2 class="text-[3rem]"><span class="font-lw">Get</span> in Touch.</h2>
+        <div class="w-[25rem] text-center">
+          <p class="">
+            If you are looking to hire a product designer, I’m currently
+            available for freelance and full time work
+          </p>
+        </div>
+        <button class="flex justify-center gap-5 btn text-black w-[20rem]">
+          <span class="material-symbols-outlined"> mail </span>
+          mikeadek82@gmail.com
+        </button>
+        <p>You can also find me on these platforms</p>
+        <div class="grid grid-cols-5 justify-center items-center">
+          <img src="./assets/socials1.svg" alt="" />
+          <img src="./assets/socials2.svg" alt="" />
+          <img src="./assets/socials3.svg" alt="" />
+          <img src="./assets/socials4.svg" alt="" />
+          <img src="./assets/socials5.svg" alt="" />
         </div>
       </div>
     </section>
