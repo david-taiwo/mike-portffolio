@@ -586,6 +586,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -632,6 +636,10 @@ video {
 
 .h-\[2\.5rem\] {
   height: 2.5rem;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .w-8 {
@@ -724,6 +732,18 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[80\] {
+  max-width: 80;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 
 .flex-1 {
@@ -1078,6 +1098,26 @@ video {
   padding-bottom: 7rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1325,6 +1365,42 @@ video {
     width: 100%;
   }
 
+  .phone\:w-16 {
+    width: 4rem;
+  }
+
+  .phone\:w-\[\] {
+    width: ;
+  }
+
+  .phone\:w-\[80\] {
+    width: 80;
+  }
+
+  .phone\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .phone\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .phone\:w-\[8zzz0\%\] {
+    width: 8zzz0%;
+  }
+
+  .phone\:w-\[100\] {
+    width: 100;
+  }
+
+  .phone\:max-w-screen-md {
+    max-width: 768px;
+  }
+
+  .phone\:max-w-screen-sm {
+    max-width: 640px;
+  }
+
   .phone\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -1442,6 +1518,10 @@ video {
     text-align: center;
   }
 
+  .phone\:text-start {
+    text-align: start;
+  }
+
   .phone\:text-\[1\.8rem\] {
     font-size: 1.8rem;
   }
@@ -1484,6 +1564,34 @@ video {
 
   .phone\:leading-\[2\.5rem\] {
     line-height: 2.5rem;
+  }
+
+  .phone\:leading-\[2\.3rem\] {
+    line-height: 2.3rem;
+  }
+
+  .phone\:leading-\[2\.rem\] {
+    line-height: 2.rem;
+  }
+
+  .phone\:leading-\[2\.2rem\] {
+    line-height: 2.2rem;
+  }
+
+  .phone\:leading-\[2\.1rem\] {
+    line-height: 2.1rem;
+  }
+
+  .phone\:leading-\[2rem\] {
+    line-height: 2rem;
+  }
+
+  .phone\:leading-\[1\.rem\] {
+    line-height: 1.rem;
+  }
+
+  .phone\:leading-\[1\.7rem\] {
+    line-height: 1.7rem;
   }
 
   .phone\:text-red-500 {
