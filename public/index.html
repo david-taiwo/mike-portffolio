@@ -18,9 +18,9 @@
   </head>
 
   <body class="bg-frame-bg font-poppins w-[100vw]">
-    <section class="gradient-bg w-[100vw]">
+    <section class="gradient-bg">
       <!-- Nav Section -->
-      <nav class="h-[15vh] flex justify-between items-center flex-1 px-10">
+      <nav class="flex justify-between items-center flex-1 px-10">
         <div
           class="text-center text-2xl font-bold leading-9 tracking-tight gradient-text"
         >
@@ -55,36 +55,40 @@
       </nav>
 
       <div
-        class="text-tx-c1 flex px-10 mt-10 gap-7 justify-between overflow-visible phone:flex-col-reverse phone:px-3"
+        class="text-tx-c1 flex flex-row px-10 mt-10 phone:flex-col-reverse phone:px-3"
       >
         <div
-          class="flex flex-col justify-ev items-start w-[50vw] flex-shrink-0 gap-4"
+          class="flex flex-col justify-evenly flex-shrink-0 gap-10 phone:gap-7 w-1/2 phone:w-full phone:py-10"
         >
           <h1
-            class="text-[4rem] leading-[4.5rem] phone:text-[1.8rem] phone:leading-[2.5rem]"
+            class="text-[4rem] leading-[4.5rem] phone:text-[2.4rem] phone:leading-[2.5rem]"
           >
             Hi, I am <br /><span class="font-bold gradient-text"
               >Michael Adeleke</span
             >
-            <br />A Product Designer
+            <br />A Product Designer.
           </h1>
-          <p class="text-[1.4rem] phone:text-[1rem] text-wrap">
+          <p class="text-[1.4rem] phone:text-[1.1rem] phone:text-center">
             I help businesses and companies reach their goals and designing
             user-centric digital product & interactive experience
           </p>
-          <button
-            class="flex justify-center gap-5 mt-10 btn text-black w-[15rem]"
-          >
-            <span class="material-symbols-outlined"> mail </span>
-            Contact Me
-          </button>
+          <div class="phone:flex justify-center">
+            <button
+              class="flex justify-center items-center gap-5 btn text-black w-[17rem] h-[2.5rem] text-[1rem] font-lw"
+            >
+              <span class="material-symbols-outlined"> mail </span>
+              Contact Me
+            </button>
+          </div>
         </div>
 
-        <div class="phone:w-[17rem]">
+        <div
+          class="w-1/2 flex justify-center items-center phone:w-full phone:mt-2"
+        >
           <img
             src="./assets/image 2.png"
             alt="profile image"
-            class="pics-border"
+            class="pics-border max-w-full h-auto"
           />
         </div>
       </div>
@@ -114,9 +118,9 @@
       </ul>
     </div> -->
 
-    <section class="text-tx-c1 px-10 py-11">
-      <div class="flex flex-col justify-evenly gap-4">
-        <h2 class="text-2xl"><span class="font-lw">Featured</span> Works</h2>
+    <section class="text-tx-c1 px-10 py-11 mt-[4rem] phone:mt-2">
+      <div class="flex flex-col justify-evenly gap-12">
+        <h2 class="text-3xl"><span class="font-lw">Featured</span> Works</h2>
 
         <div class="flex justify-around gap-10 phone:flex-col">
           <div>
@@ -169,7 +173,7 @@
     </section>
 
     <section class="selected-gradient-bg text-tx-c1 px-10 py-11">
-      <div class="flex flex-col justify-evenly gap-20">
+      <div class="flex flex-col justify-evenly gap-12">
         <h2 class="text-2xl"><span class="font-lw">Selected</span> Works</h2>
         <div class="grid grid-cols-2 phone:grid-rows-2 phone:grid-cols-1">
           <div class="bg-[#080E1F] flex justify-center">

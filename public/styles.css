@@ -554,12 +554,36 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[5rem\] {
+  margin-top: 5rem;
+}
+
+.mt-\[4rem\] {
+  margin-top: 4rem;
+}
+
+.mt-\[3rem\] {
+  margin-top: 3rem;
 }
 
 .flex {
@@ -584,6 +608,30 @@ video {
 
 .h-\[20rem\] {
   height: 20rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[2rem\] {
+  height: 2rem;
+}
+
+.h-\[3rem\] {
+  height: 3rem;
+}
+
+.h-\[2\.rem\] {
+  height: 2.rem;
+}
+
+.h-\[2\.5rem\] {
+  height: 2.5rem;
 }
 
 .w-8 {
@@ -664,6 +712,18 @@ video {
 
 .w-\[20rem\] {
   width: 20rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-\[17rem\] {
+  width: 17rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-1 {
@@ -844,6 +904,10 @@ video {
 
 .gap-28 {
   gap: 7rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -1028,6 +1092,14 @@ video {
 
 .font-poppins {
   font-family: Poppins, sans-serif;
+}
+
+.font-\[\[\]\] {
+  font-family: [];
+}
+
+.font-\[\] {
+  font-family: ;
 }
 
 .text-2xl {
@@ -1217,6 +1289,22 @@ video {
     grid-row: span 1 / span 1;
   }
 
+  .phone\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .phone\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .phone\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .phone\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
   .phone\:flex {
     display: flex;
   }
@@ -1231,6 +1319,10 @@ video {
 
   .phone\:w-\[80vw\] {
     width: 80vw;
+  }
+
+  .phone\:w-full {
+    width: 100%;
   }
 
   .phone\:grid-cols-1 {
@@ -1265,6 +1357,10 @@ video {
     flex-wrap: wrap;
   }
 
+  .phone\:items-center {
+    align-items: center;
+  }
+
   .phone\:justify-end {
     justify-content: flex-end;
   }
@@ -1291,6 +1387,14 @@ video {
 
   .phone\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .phone\:gap-0 {
+    gap: 0px;
+  }
+
+  .phone\:gap-7 {
+    gap: 1.75rem;
   }
 
   .phone\:p-10 {
@@ -1329,12 +1433,53 @@ video {
     padding-right: 0px;
   }
 
+  .phone\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .phone\:text-center {
+    text-align: center;
+  }
+
   .phone\:text-\[1\.8rem\] {
     font-size: 1.8rem;
   }
 
   .phone\:text-\[1rem\] {
     font-size: 1rem;
+  }
+
+  .phone\:text-\[6rem\] {
+    font-size: 6rem;
+  }
+
+  .phone\:text-\[4rem\] {
+    font-size: 4rem;
+  }
+
+  .phone\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .phone\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+
+  .phone\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
+  }
+
+  .phone\:text-\[1\.2rem\] {
+    font-size: 1.2rem;
+  }
+
+  .phone\:text-\[2\.4rem\] {
+    font-size: 2.4rem;
+  }
+
+  .phone\:text-\[1\.1rem\] {
+    font-size: 1.1rem;
   }
 
   .phone\:leading-\[2\.5rem\] {
@@ -1344,5 +1489,9 @@ video {
   .phone\:text-red-500 {
     --tw-text-opacity: 1;
     color: rgb(239 68 68 / var(--tw-text-opacity));
+  }
+
+  .phone\:text-\[\] {
+    color: ;
   }
 }
