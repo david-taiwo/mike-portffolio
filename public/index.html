@@ -38,12 +38,17 @@
             <span class="material-symbols-outlined text-tx-c1">
               dark_mode
             </span>
-            <button class="btn text-tx">Download CV</button>
+            <button
+              class="btn text-tx"
+              onclick="window.open('./assets/michael-cv.pdf')"
+            >
+              Download CV
+            </button>
           </div>
         </div>
 
         <!-- Hamburger icon -->
-        <div class="lg:hidden menu-links">
+        <div class="lg:hidden text-tx-c1">
           <nav class="">
             <div
               class="hamburger-icon flex flex-col justify-between h-6 w-8 cursor-pointer"
@@ -53,19 +58,50 @@
               <span></span>
               <span></span>
             </div>
-            <div class="menu-links hidden">
-              <li><a href="#about" onclick="toggleMenu()">About</a></li>
-              <li>
-                <a href="#experience" onclick="toggleMenu()">Experience</a>
-              </li>
-              <li><a href="#goals" onclick="toggleMenu()">Goals</a></li>
-              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <div
+              class="menu-links fixed top-0 right-0 h-full w-[92vw] bg-[#030712] flex flex-col items-start justify-start transition-transform duration-300 transform translate-x-full"
+            >
+              <div class="border-b-[1px] border-[#1F2937] w-[100vw]">
+                <span
+                  class="material-symbols-outlined cursor-pointer text-[2rem] p-6"
+                  onclick="toggleMenu()"
+                >
+                  close
+                </span>
+              </div>
+              <div class="border-b-[1px] border-[#1F2937] w-[100vw]">
+                <ul
+                  class="p-5 text-[1.3rem] flex flex-col justify-between gap-2"
+                >
+                  <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                  <li></li>
+                  <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+                  <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="flex flex-col justify-center items-center gap 3">
+                <div
+                  class="flex flex-row items-center gap-[8rem] p-5 text-[1.3rem]"
+                >
+                  <p>Switch Theme</p>
+                  <span class="material-symbols-outlined"> dark_mode </span>
+                </div>
+
+                <button
+                  class="flex justify-center items-center gap-5 btn text-black w-[17rem] h-[2.5rem] text-[1rem] font-lw"
+                  onclick="window.open('./assets/michael-cv.pdf')"
+                >
+                  Download CV
+                </button>
+              </div>
             </div>
           </nav>
         </div>
       </nav>
 
       <div
+        id="about"
         class="text-tx-c1 flex flex-row px-10 mt-10 phone:flex-col-reverse phone:px-2"
       >
         <div
@@ -86,6 +122,7 @@
           <div class="phone:flex justify-center">
             <button
               class="flex justify-center items-center gap-5 btn text-black w-[17rem] h-[2.5rem] text-[1rem] font-lw"
+              onclick="window.location.href='mailto:your-mikeadek82@gmail.com'"
             >
               <span class="material-symbols-outlined"> mail </span>
               Contact Me
@@ -105,9 +142,7 @@
       </div>
     </header>
 
-    <!-- Hamburger Nav Section -->
-
-    <section class="text-tx-c1 px-10 py-11 mt-[4rem] phone:mt-2">
+    <section id="work" class="text-tx-c1 px-10 py-11 mt-[4rem] phone:mt-2">
       <div class="flex flex-col justify-evenly gap-12">
         <h2 class="text-3xl"><span class="font-lw">Featured</span> Works</h2>
 
@@ -299,7 +334,7 @@
       </div>
     </section>
 
-    <footer class="text-tx-c1 px-10 py-11">
+    <footer id="contact" class="text-tx-c1 px-10 py-11">
       <div class="flex flex-col gap-6 justify-start items-center">
         <h2 class="text-[3rem]"><span class="font-lw">Get</span> in Touch.</h2>
         <div class="w-[25rem] text-center">
@@ -308,17 +343,30 @@
             available for freelance and full time work
           </p>
         </div>
-        <button class="flex justify-center gap-5 btn text-black w-[20rem]">
+        <button
+          class="flex justify-center gap-5 btn text-black w-[20rem]"
+          onclick="window.location.href='mailto:your-mikeadek82@gmail.com'"
+        >
           <span class="material-symbols-outlined"> mail </span>
           mikeadek82@gmail.com
         </button>
         <p>You can also find me on these platforms</p>
         <div class="grid grid-cols-5 justify-center items-center">
-          <img src="./assets/socials1.svg" alt="" />
-          <img src="./assets/socials2.svg" alt="" />
-          <img src="./assets/socials3.svg" alt="" />
-          <img src="./assets/socials4.svg" alt="" />
-          <img src="./assets/socials5.svg" alt="" />
+          <a href="https://web.whatsapp.com/">
+            <img src="./assets/socials1.svg" alt="" />
+          </a>
+          <a href="https://web.whatsapp.com/">
+            <img src="./assets/socials2.svg" alt="" />
+          </a>
+          <a href="https://web.x.com/">
+            <img src="./assets/socials3.svg" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/">
+            <img src="./assets/socials4.svg" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/">
+            <img src="./assets/socials5.svg" alt="" />
+          </a>
         </div>
       </div>
     </footer>
